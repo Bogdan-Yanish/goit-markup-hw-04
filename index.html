@@ -34,9 +34,21 @@
 
         <ul class="auth-nav">
           <li class="item">
-            <a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="contact" href="mailto:info@devstudio.com">
+              <svg class="icon-header" width="16px" height="12px">
+                <use href="./images/icons.svg#icon-mail"></use>
+              </svg>
+              info@devstudio.com
+            </a>
           </li>
-          <li class="item"><a class="contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li class="item">
+            <a class="contact" href="tel:+380961111111">
+              <svg class="icon-header" width="10px" height="16px">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
+          </li>
         </ul>
       </div>
     </header>
@@ -56,6 +68,30 @@
       <!-- Переваги-->
       <section class="section benefits">
         <div class="container">
+          <div class="benefits-icons">
+            <ul class="benefits-list-icon">
+              <li class="benefits-item-icon">
+                <svg class="benefits-icon">
+                  <use href="./images/icons.svg#icon-antenna"></use>
+                </svg>
+              </li>
+              <li class="benefits-item-icon">
+                <svg class="benefits-icon">
+                  <use href="./images/icons.svg#icon-clock"></use>
+                </svg>
+              </li>
+              <li class="benefits-item-icon">
+                <svg class="benefits-icon">
+                  <use href="./images/icons.svg#icon-planning"></use>
+                </svg>
+              </li>
+              <li class="benefits-item-icon">
+                <svg class="benefits-icon">
+                  <use href="./images/icons.svg#icon-astronavt"></use>
+                </svg>
+              </li>
+            </ul>
+          </div>
           <ul class="benefits-list">
             <li class="benefits-item">
               <h3 class="benefits-subtitle">Увага до деталей</h3>
@@ -84,7 +120,6 @@
       </section>
 
       <!--Чим ми займаємось-->
-
       <section class="section work">
         <div class="container">
           <h2 class="work-title">Чим ми займаємось</h2>
@@ -108,7 +143,6 @@
       </section>
 
       <!--Команда-->
-
       <section class="section team">
         <div class="container">
           <h2 class="team-title">Наша команда</h2>
@@ -124,7 +158,30 @@
                 <h3 class="team-name">Ігор Демяненко</h3>
                 <p class="team-position">Product Designer</p>
               </div>
+              <div class="team-socials">
+                <a class="team-socials-link" href="">
+                  <svg class="team-socials-icon" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+                <a class="team-socials-link" href="">
+                  <svg class="team-socials-icon" width="20px" height="16px">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+                <a class="team-socials-link" href="">
+                  <svg class="team-socials-icon" width="10px" height="16px">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+                <a class="team-socials-link" href="">
+                  <svg class="team-socials-icon" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </div>
             </li>
+
             <li class="team-item">
               <img
                 class="team-foto"
@@ -164,11 +221,63 @@
           </ul>
         </div>
       </section>
+
+      <!-- Постійні клієнти -->
+      <section class="section clients">
+        <div class="container">
+          <h2 class="clients-title">Постійні клієнти</h2>
+          <ul class="clients-list">
+            <li class="clients-item">
+              <a class="clients-link" href="#">
+                <svg class="clients-icon">
+                  <use href="./images/icons.svg#icon-client1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-item">
+              <a class="clients-link" href="#">
+                <svg class="clients-icon">
+                  <use href="./images/icons.svg#icon-client2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-item">
+              <a class="clients-link" href="#">
+                <svg class="clients-icon">
+                  <use href="./images/icons.svg#icon-client3"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-item">
+              <a class="clients-link" href="#">
+                <svg class="clients-icon">
+                  <use href="./images/icons.svg#icon-client4"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-item">
+              <a class="clients-link" href="#">
+                <svg class="clients-icon">
+                  <use href="./images/icons.svg#icon-client5"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-item">
+              <a class="clients-link" href="#">
+                <svg class="clients-icon">
+                  <use href="./images/icons.svg#icon-client6"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
       <div class="container">
         <a class="logo" href="./index.html"> Web<span class="accent-footer">Studio</span> </a>
+        <span class="footer-join socials">Приєднуйтесь</span>
         <address class="address">м.Київ, пр-т Лесі Українки, 26</address>
         <ul class="footer-link">
           <li class="footer-item">
