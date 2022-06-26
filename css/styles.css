@@ -554,7 +554,7 @@ ul {
   fill: var(--accent-color);
 }
 
-.clients-icon:focus {
+.clients-link:focus .clients-icon {
   fill: var(--accent-color);
 }
 
