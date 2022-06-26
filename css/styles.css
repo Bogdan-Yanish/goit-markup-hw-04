@@ -213,12 +213,15 @@ ul {
   margin-top: 9px;
 }
 
-.container-join {
-  width: 206px;
-  margin-left: auto;
+.footer-container {
+  display: flex;
+}
+
+.join-container {
   display: flex;
   flex-direction: column;
-  /* margin-left: 156px; */ 
+  margin-left: 70px;
+  padding-top: 12px;
 }
 
 .footer-join {
@@ -237,7 +240,6 @@ ul {
 .footer-socials-list {
   display: flex;
   gap: 10px;
-  align-items: center;
 }
 
 .footer-socials-link {
@@ -273,8 +275,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
   max-width: 1600px;
-  height: 600px;
-
+  
   background-color: var(--baner-color);
   background-image: linear-gradient(to right,
        rgba(47, 48, 58, 0.4),
@@ -432,7 +433,11 @@ ul {
 
 .team-item {
   width: 270px;
+
   background-color: var(--white-color);
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-item:not(:last-child) {
@@ -490,11 +495,12 @@ ul {
   fill:var(--icon-color);
 }
 
-.socials-icon:hover {
+.team-socials-link:hover .socials-icon {
   fill: var(--white-color);
+
 }
 
-.socials-icon:focus {
+.team-socials-link:focus .socials-icon {
   fill: var(--white-color);
 }
 
@@ -505,10 +511,6 @@ ul {
 .team-socials-link:focus {
   background-color: var(--accent-color);
 }
-
-
-
-
 
 /* Clients */
 .clients-title {
@@ -533,6 +535,8 @@ ul {
   align-items: center;
   justify-content: center;
 
+  color: var(--icon-color);
+
   width: 170px;
   height: 92px; 
  
@@ -543,10 +547,10 @@ ul {
 }
 
 .clients-icon {
- fill: var(--icon-color)
+  fill: currentColor;
 }
 
-.clients-icon:hover {
+.clients-link:hover .clients-icon {
   fill: var(--accent-color);
 }
 
@@ -615,8 +619,12 @@ ul {
   margin-top: 30px;
 }
 
+.portfolio-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .portfolio-link {
-  text-decoration: none;
+  text-decoration: none;  
 }
 
 .portfolio-img {
@@ -647,3 +655,6 @@ ul {
   line-height: 1.88;
   letter-spacing: 0.03em;
 }
+
+
+
